@@ -4,6 +4,11 @@ from fpdf import FPDF
 from PyPDF2 import PdfReader
 from datetime import datetime
 from dotenv import load_dotenv
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 # Load environment variables from .env file
 load_dotenv(dotenv_path='../.env')
